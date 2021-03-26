@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.headers{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+}
+
+.header_right{
+    display: flex;
+    max-width: 600px;
+    width: 100%;
+    justify-content: space-between;
+}
+.header_text{
+    padding-top: 37px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+.header_text a{
+    text-decoration: none;
+    color: #000;
+}
+.number a{
+    text-decoration: none;
+    color: #000;
+}
+.contacts{
+    padding-top: 37px;
+}
+.number{
+    position: relative;
+
+    font-size: 14px;
+    line-height: 16px;
+}
+.number::before{
+    content: url(../images/call.png);
+    position: absolute;
+    right: 125px;
+}
+
+.main_block{
+    height: 700px;
+    background-image: url(../images/background_header.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    /* background-position: bottom; */
+}
+.main_things{
+    text-align: end;
+}
+.main_blocks{
+    width: 100%;
+}
+
+.main_title{
+    font-size: 72px;
+    line-height: 84px;
+    /* max-width: 644px; */
+    width: 100%;
+    color: #D24381;
+    padding-top: 115px;
+}
+.main_subtitle{
+    padding-right: 25px;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 80px;
+}
+
+.main_button {
+    padding-right: 150px;
+}
+.main_button a{
+    border: 1px solid #919F28;
+    text-decoration: none;
+    color: white;
+    background-color: #919F28;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 14px 60px;
+    
+}
+
+.second_section{
+    background-color: #FDF5E8;
+    height: 700px;
+}
+.padding{
+    padding-bottom: 36px;
+}
+.second_container{
+    padding-top: 36px;
+    background-color: #DCC4B8;
+    height: 600px;
+}
+.second_title{
+    font-size: 24px;
+line-height: 28px;
+text-align: center;
+margin-bottom: 26px;
+}
+
+.items{
+    padding: 0 95px;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.item{
+    text-align: center;
+}
+.item img{
+    margin-bottom: 19px;
+
+}
+
+.item_title{
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.item-pricet{
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-right: 15px;
+}
+
+.item-priced{
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    text-decoration: line-through;
+}
