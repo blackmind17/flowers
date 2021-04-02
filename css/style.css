@@ -3,6 +3,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    
 }
 .container{
     max-width: 1200px;
@@ -67,6 +68,9 @@ body{
 .main_blocks{
     width: 100%;
 }
+.header_text a:hover{
+    color: #D24381;
+}
 
 .main_title{
     font-size: 72px;
@@ -75,6 +79,9 @@ body{
     width: 100%;
     color: #D24381;
     padding-top: 115px;
+}
+.main_button a:hover{
+    background-color: #D24381;
 }
 .main_subtitle{
     padding-right: 25px;
@@ -137,8 +144,11 @@ margin-bottom: 26px;
     line-height: 21px;
     color: #FFFFFF;
     margin-bottom: 15px;
+    cursor: pointer;
 }
-
+.item_title:hover{
+    color: #D24381;
+}
 .item-pricet{
     font-size: 14px;
     line-height: 16px;
