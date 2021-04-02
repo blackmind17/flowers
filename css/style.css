@@ -99,7 +99,8 @@ body{
 
 .second_section{
     background-color: #FDF5E8;
-    height: 700px;
+    height: auto;
+    
 }
 .padding{
     padding-bottom: 36px;
@@ -150,4 +151,142 @@ margin-bottom: 26px;
     line-height: 16px;
     color: #000000;
     text-decoration: line-through;
+}
+
+
+.third_section{
+    background-color: #FDF5E8;
+    height: auto;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.third_title{
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.third_items{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: #DCC4B8;
+    border-radius: 15px;
+}
+.third_icon{
+    text-align: center;
+}
+.third_quote{
+    font-size: 14px;
+    text-align: center;
+    line-height: 16px;
+    margin-bottom: 7px; 
+}
+.third_quote-2{
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+
+    color: #FFFFFF;
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+.third_item:nth-child(1){
+    margin-left: 20px;
+}
+.third_item:nth-child(3){
+    margin-right: 20px;
+}
+
+.third_ways{
+    margin-top: 40px;
+    background-color: #DCC4B8;
+    padding: 17px 0;
+}
+.third_back{
+    background-color: #fff;
+    margin-right: 10%;
+    margin-left: 10%;
+    border-radius: 15px;
+}
+
+.third_types{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.third_type:nth-child(1){
+    margin-left: 20px;
+}
+.third_type:nth-child(3){
+    margin-right: 20px;
+}
+
+.third_quote-3{
+    max-width: 213px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 15px;
+    
+}
+
+footer{
+    background-color: #DCC4B8;
+}
+
+.footer_items{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8%;
+    padding-right: 2%;
+}
+
+.address{
+    margin-top: 21px;
+    max-width: 213px;
+}
+.recvisits{
+    margin-top: 21px;
+    max-width: 253px;
+}
+
+
+.address_title{
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 9px;
+    
+}
+.address_address{
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.address_contacts{
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 25px;
+}
+.recvisits_info{
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.footer_icons{
+    margin-top: 28px;
+    max-width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 34px;
+}
+.footer_icon{
+    margin-right: 33px;
+    margin-bottom: 15px;
 }
